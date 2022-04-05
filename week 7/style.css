@@ -1,0 +1,68 @@
+*{
+ margin: 0;
+ padding: 0;    
+}
+
+nav{
+    width: 100%;
+    min-height: 100px;
+    background-color: #fff;
+}
+body{
+    background-image: url(image/IMG-20220214-WA0026.jpg) ;
+      background-size: cover;
+      background-position: center;
+      box-sizing: border-box;
+      font-family: sans-serif  ;
+}
+
+ul{
+
+
+}
+    
+ul li{
+   list-style: none; 
+   display:inline-block ;
+    
+   line-height: 100px;
+   
+
+
+
+
+}
+ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Arial;
+    color: #1e1e1e;
+    padding: 0 20px;
+
+} 
+.menu-bar
+{
+    background: rgb(0,100,0);
+    text-align: center;
+}
+.active, .menu-bar
+{
+background: #bab0ba;
+border: radius 3px; 
+}
+.topnav{
+    overflow: hidden;
+    background-color: bl;
+}
+
+.navbar .links li .sub-menu .more-sub-menu{
+  position: absolute;
+  top: 0;
+  left: 100%;
+  border-radius: 0 4px 4px 4px;
+  z-index: 1;
+  display: none;
+}
+.links li .sub-menu .more:hover .more-sub-menu{
+  display: block;
+}
